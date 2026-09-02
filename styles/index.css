@@ -1,0 +1,11 @@
+* {margin:0; padding:0; line-height:1; font-family:'Noto Sans KR', sans-serif; list-style:none; box-sizing: border-box;}
+img {width:100%;}
+header, main {min-width:320px; max-width:460px; margin:0 auto; padding:30px 15px;}
+header h1 {width:30%;}
+main section {padding:0 0 50px;}
+main section h1 {font-size:1rem; font-weight:700; margin:0 0 15px;}
+main section p {line-height:1.5; font-size:0.875rem; white-space: nowrap; overflow:hidden; text-overflow: ellipsis;}
+main section #container ul {display:flex; flex-flow:row wrap; gap:10px;}
+main section #container ul li {width:calc((100% - 20px) / 3); max-height:230px; overflow:hidden; margin:0 0 20px;}
+main section .movie_swiper .swiper-slide img {height:140px;}
+main section .date {font-size:0.75rem;}

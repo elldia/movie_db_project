@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGV</title>
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <!-- design -->
+  <link rel="stylesheet" href="./styles/index.css">
+  <!-- 영화 -->
+  <script src="./scripts/moviesDB.js"></script>
+  <script src="./scripts/index.js" defer></script>
+  <!-- 애니메이션 -->
+  <script src="./scripts/animeDB.js"></script>
+  <script src="./scripts/index_anime.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1><a href="#"><img src="./images/logo_cgv.svg" alt="CGV"></a></h1>
+  </header>
+  <main>
+    <section>
+      <h1 class="title">무비차트</h1>
+      <div id="container"></div>
+    </section>
+    <section>
+      <h1 class="title">상영예정</h1>
+      <div class="swiper movie_swiper">
+        <div class="swiper-wrapper"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
